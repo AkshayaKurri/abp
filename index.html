@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>ABP SOLUTIONS - Empowering Tech</title>  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #000;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+    }
+
+    .card-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
+    }
+
+    .card {
+      width: 300px;
+      background-color: #fff;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin: 15px 0 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #333;
+      padding: 0 10px 20px;
+    }
+
+    @media (max-width: 768px) {
+      .card-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+   <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      color: #000;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .services-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
+    }
+
+    .service-card {
+      width: 300px;
+    }
+
+    .service-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    .service-card h3 {
+      margin: 15px 0 10px;
+      font-size: 18px;
+    }
+
+    .service-card p {
+      font-size: 14px;
+      color: #333;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 768px) {
+      .services-row {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body, html {
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+  }
+
+  .hero {
+    background-image: url("images/images (4).jfif");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+
+  .hero h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  /* .hero p {
+    font-size: 1.1rem;
+    max-width: 600px;
+  } */
+
+  @media (max-width: 768px) {
+    .hero h2 {
+      font-size: 2rem;
+    }
+    .hero p {
+      font-size: 1rem;
+    }
+  }
+</style>
+
+</head>
+<style>
+    .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+</style>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Navbar -->
+  <header class="bg-blue-900 shadow-md">
+    <div class="container mx-auto px-0 py-0 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-white  ">ABP SERVICES</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="text-white hover:text-blue-600">About</a>
+        <a href="#services" class="text-white hover:text-blue-600">Services</a>
+        <a href="#contact" class="text-white hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- <div class="w3-display-left w3-text-white" style="padding:10px">
+    <img src="images/images (4).jfif" alt="IT Illustration" height="1" width="1600">
+    <div class="centered">
+        <h2 class="text-4xl font-bold mb-4 text-white-700">Innovative IT Solutions for the Modern World</h2>
+        <p class="text-lg mb-6 text-white-600">We deliver scalable, secure, and cutting-edge technology solutions that drive your business forward.</p>
+        <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">Get Started</a>
+       <br>
+    </div>
+    </div> -->
+
+    <section class="hero" style="padding:10px">   
+       <div class="w3-display-left w3-text-white" style="padding:10px"> 
+        <div class="centered">
+            <h2> ABP-SERVICES</h2>
+            <h2 class="text-4xl font-bold mb-4 text-white-700">Innovative IT Solutions for the Modern World</h2>
+            <p class="text-lg mb-6 text-center text-white-600">We deliver scalable, secure, and cutting-edge technology solutions that drive your business forward.</p>
+            <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700">Get Started</a>
+           <br>
+        </div>
+            
+    </section>
+
+     <!-- About Section -->
+  <section id="about" class="py-5 bg-gray">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center text-blue-800 mb-6">ABOUT ABP-SERVICES</h3>
+
+      <p class="max-w-3xl mx-auto text-center text-gray-600">
+        ABP SERVICES is a forward-thinking IT startup focused on providing innovative software development, cloud services, and digital transformation solutions. Our mission is to empower businesses through intelligent technology.
+      </p>
+      <br>
+      <div class="card-grid">
+        <div class="card">
+          <img src="images/images (1).jfif" alt="Who We Are">
+
+          <h3>Who We Are</h3>
+          <p>ABP-SERVICES is a full-service IT company that offers a wide range of services
+             including web development, software development, digital marketing, and more.
+              We are committed to providing our clients with the highest quality products and
+               services that meet their specific needs.</p>
+        </div>
+        <div class="card">
+          <img src="images/images.jfif" alt="Our Approach">
+          <h3>Our Approach</h3>
+          <p>We follow a customer-centric approach to everything we do. We believe in working closely with our clients to understand their needs and goals, and then we develop a customized plan to achieve those goals. We strive to deliver results that exceed our clients' expectations.</p>
+        </div>
+        <div class="card">
+          <img src="images/images (7).jfif" alt="Our Team">
+          <h3>Our Team</h3>
+          <p>Our team is made up of passionate and skilled professionals who are dedicated to providing the best possible service to our clients. We have experts in web development, software development, digital marketing, and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <div id="services" class="container">
+    <h3 class="text-3xl font-bold text-center text-blue-800 mb-10">TRANSFORM YOUR BUSINESS WITH ABP-SERVICES</h3>
+    <br>
+    <div class="services-row">
+      <div class="service-card">
+        <img src="images/images (10).jfif" alt="Web Development" />
+        <h3>Web Development</h3>
+        <p>
+          Our team of experienced developers will build a custom website tailored to your needs, 
+          using the latest technologies and ensuring optimal performance and user experience.
+        </p>
+      </div>
+      <div class="service-card">
+        <img src="images/images (11).jfif" alt="Mobile App Development" />
+        <h3>Mobile App Development</h3>
+        <p>
+          We specialize in building mobile apps for iOS and Android, from design to development 
+          and deployment. Our team will work closely with you to ensure your app meets your business 
+          goals and user needs.
+        </p>
+      </div>
+      <div class="service-card">
+        <img src="images/images (12).jfif" alt="Cloud Services" />
+        <h3>Cloud Services</h3>
+        <p>
+          We offer a range of cloud services, including cloud hosting, data backup and recovery, and 
+          cloud migration. Our experts will help you choose the right solution for your business and 
+          ensure seamless integration.
+        </p>
+      </div>
+    </div>
+    <div class="services-row">
+      <div class="service-card">
+        <img src="images/images (13).jfif" alt="IT Consulting" />
+        <h3>IT Consulting</h3>
+        <p>
+          Our IT Consulting Services are designed to align your technology with your business goals.
+           We’re here to help you make smarter technology decisions that drive innovation, improve efficiency, and position your business for long-term success.
+        </p>
+      </div>
+      <div class="service-card">
+        <img src="images/images (8).jfif" alt="Software Development" />
+        <h3>Software Development</h3>
+        <p>
+          We develop custom software solutions to meet your unique business needs, 
+          from enterprise software to web applications. Our team of developers has expertise 
+          in a wide range of programming languages 
+        </p>
+      </div>
+      <div class="service-card">
+        <img src="images/images (15).jfif" alt="Digital Marketing" />
+        <h3>Digital Marketing</h3>
+        <p>
+          Our digital marketing services include SEO, social media marketing, PPC advertising,
+           and content marketing. We will help you increase your online visibility, attract more
+            customers, and grow your business.
+        </p>
+      </div>
+    </div>
+  </div>
+
+   <!-- Contact Section -->
+   <section id="contact" class="py-5 bg-gray">
+    <div class="container mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center text-blue-800 mb-6">CONTACT US</h3>
+       <p class=" text-center text-gray-600">
+        Let's get in touch. Send us a message: </p>
+        <div style="margin-top:10px">
+                <p class="text-lg mb-1 text-center text-black-800"> <i class="fa fa-map-marker" style="font-size:26px"></i> Unit 45 Cetral Park, 
+                Parklands Tableview, <br>CapeTown, WesternCape,7441, South Africa. </p>
+            <p class="text-lg mb-1 text-center text-black-800"><i class="fa fa-phone" style="font-size:26px"></i>  Phone:  +27 781884862</p>
+            <p class="text-lg mb-1 text-center text-black-800"><i class="fa fa-envelope" style="font-size:26px"></i> Email: info@abpservicesbiz.co.za</p>
+        </div>
+        </div>
+  </section>
+<!-- 
+   <section  class="py-0">
+    <div class="container mx-auto px-3">
+      <h3 class="text-3xl font-bold text-center text-blue-800 mb-6">Get in Touch</h3>
+      <form class="max-w-xl mx-auto grid gap-4">
+        <input type="text" placeholder="Your Name" class="border border-gray-300 p-3 rounded-lg w-full" required>
+        <input type="email" placeholder="Your Email" class="border border-gray-300 p-3 rounded-lg w-full" required>
+        <textarea placeholder="Your Message" rows="4" class="border border-gray-300 p-3 rounded-lg w-full" required></textarea>
+        <button type="submit" class="bg-blue-900 text-white py-3 px-6 rounded-full hover:bg-blue-700">Send Message</button>
+      </form>
+    </div>
+  </section> -->
+
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-6 text-center">
+    <p>&copy; 2025 ABP SERVICES. All rights reserved.</p>
+  </footer>
+    </div>
+  </body>
+</html>
